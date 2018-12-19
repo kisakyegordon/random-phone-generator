@@ -57,9 +57,11 @@ To locally run the tests
 
   3 - 3 files are generated ie phoneNumbers.json, phoneNumbers-asc.json and phoneNumbers-desc.json
 
-  ![Screenshot](./docs/screenshot.png)
-`Logged Information`
 
+#### Logged Information
+  ![Screenshot](./docs/screenshot.png)
+
+#### Generated Files
   ![Screenshot](./docs/screenshot2.png)
-  `Generated Files`
+
 
