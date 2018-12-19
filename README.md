@@ -1,44 +1,67 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Random Phone Generator
 
-## Available Scripts
+Node application that Generates Random Phone Numbers.
+- It Writes the numbers in 3 files :-
+  - 1 - phoneNumbers.json, for all generated numbers.
 
-In the project directory, you can run:
+  - 2 - phoneNumbers-asc.json, for all generated numbers in ascending order based on phone number value.
 
-### `npm start`
+  - 3 - phoneNumbers-desc.json, for all generated numbers in descending order based on phone number value.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Getting Started
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-### `npm test`
+#### Prerequisites
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+What things you need to install the software and how to install them
 
-### `npm run build`
+```
+- node
+- npm or yarn
+```
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Installing
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+How to get it running on your local machine.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Cloning the project.
 
-### `npm run eject`
+  * while inside a desired directory, clone the phone-generator repository using https://github.com/kisakyegordon/phone-generator.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Install Packages
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  * enter the phone-generator repository then run the `npm install` or `yarn  install` command on the terminal to install the required libraries.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Start The Application
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+  * To start the application, run the `npm start` or `yarn start` commands.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### Running the tests
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To locally run the tests
+
+  * run the `npm test` or `yarn test`, you can also see the whole coverage by appending --coverage ie `npm test --coverage`.
+
+
+#### How it works.
+
+- After setting everything up, when you start the application with `npm start` or `yarn start`.
+
+  These are the things that happen :-
+
+  1 - Total Number of randomly generated numbers is logged on the console.
+
+  2 - Smallest and Largest generated numbers are logged on the screen with their Id's.
+
+  3 - 3 files are generated ie phoneNumbers.json, phoneNumbers-asc.json and phoneNumbers-desc.json
+
+
+#### Logged Information
+  ![Screenshot](./docs/screenshot.png)
+
+#### Generated Files
+  ![Screenshot](./docs/screenshot2.png)
+
+
